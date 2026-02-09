@@ -1,0 +1,49 @@
+# Node
+node_modules/
+dist/
+build/
+.parcel-cache/
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Databases
+*.sqlite3
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Media and uploads
+/media/
+media/
+uploads/
+
+# Misc
+*.pyc
+*.pyo
+*.pyd

@@ -1,0 +1,5 @@
+PyQt5>=5.15.0
+matplotlib>=3.7.0
+requests>=2.31.0
+pandas>=2.0.0
+adjustText>=0.8
