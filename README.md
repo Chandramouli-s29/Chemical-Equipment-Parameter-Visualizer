@@ -2,20 +2,6 @@
 
 A hybrid Web + Desktop application for visualizing and analyzing chemical equipment parameters. Upload CSV files containing equipment data and get instant insights through interactive charts, summary statistics, and PDF reports.
 
-## Quick Start
-
-```bash
-# 1. Start Backend (Terminal 1)
-cd backend
-pip install -r requirements.txt
-python setup_and_run.py
-
-# 2. Start Web Frontend (Terminal 2)
-cd web-frontend
-bash setup_and_run.sh
-
-# 3. Login with: admin / admin
-```
 
 ## Features
 
@@ -115,18 +101,11 @@ The backend API will be available at `http://localhost:8000/api/`
 
 ### 3. Web Frontend Setup (React)
 
-Open a new terminal window:
-
-**Quick Setup:**
-```bash
-cd web-frontend
-bash setup_and_run.sh
-```
-
 **Manual Setup:**
 ```bash
-# Navigate to web-frontend directory
-cd web-frontend
+# Navigate to app(as it has the package.json file) directory
+cd..
+cd app
 
 # Install dependencies
 npm install
@@ -154,7 +133,7 @@ python main.py
 
 ## Usage
 
-### Default Credentials
+### Default Credentials(for both Web+Desktop)
 
 - **Username**: `admin`
 - **Password**: `admin`
